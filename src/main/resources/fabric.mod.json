@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fastplace",
+  "version": "${version}",
+  "name": "FastPlace",
+  "description": "Removes the vanilla right-click placement cooldown so holding right-click places continuously. Toggleable, with an option to affect blocks only so eating and throwing projectiles keep their normal timing.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "club.notben.fastplace.FastPlaceMod"
+    ],
+    "client": [
+      "club.notben.fastplace.FastPlaceClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "fabric-api": "*"
+  }
+}
