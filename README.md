@@ -17,6 +17,8 @@ Toggle key: **J** (changeable in Options > Controls). Commands: `/fastplace` or 
 | `/fp projectiles` | toggle separate projectile handling |
 | `/fp projectiledelay <0-4>` | cooldown for snowballs/eggs/pearls |
 | `/fp chat` | toggle chat messages |
+This mod was created by AI, I know nothing of java, but this module was something that in many hacked clients back in the day. Anti-Cheat plugins WILL detect it as it is made to be simple to detect. Do no use on public servers with anti-cheat. 
+
 
 `blocksonly` is what keeps eating and item use feeling normal: with it on,
 FastPlace only touches the cooldown while you're holding a placeable block.
